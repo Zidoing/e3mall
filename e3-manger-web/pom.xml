@@ -89,6 +89,17 @@
 			<artifactId>zkclient</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+
+
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+		</dependency>
+
 	</dependencies>
 	<!-- 配置tomcat插件 -->
 	<build>
