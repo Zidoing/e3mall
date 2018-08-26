@@ -4,4 +4,12 @@
 		"http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+	<plugins>
+
+		<!--分页拦截器-->
+		<plugin interceptor="com.github.pagehelper.PageHelper">
+			<property name="dialect" value="mysql"/>
+		</plugin>
+	</plugins>
+
 </configuration>

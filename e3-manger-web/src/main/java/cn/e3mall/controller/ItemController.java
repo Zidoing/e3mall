@@ -1,5 +1,6 @@
 package cn.e3mall.controller;
 
+import cn.e3mall.common.pojo.EasyUIDataGripResult;
 import cn.e3mall.pojo.TbItem;
 import cn.e3mall.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,15 @@ public class ItemController {
         TbItem item = itemService.getItemById(itemId);
         System.out.println(item);
         return item;
+    }
+
+
+    @RequestMapping("/item/list")
+    @ResponseBody
+    public EasyUIDataGripResult getItemList(Integer page, Integer rows) {
+        EasyUIDataGripResult itemList = itemService.getItemList(page, rows);
+
+        return itemList;
     }
 
 
