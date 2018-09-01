@@ -16,11 +16,11 @@ public class TestPublish {
 
     @Test
     public void publishService() throws InterruptedException {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
-
-        while (true) {
-            Thread.sleep(1000);
-        }
+//        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
+//
+//        while (true) {
+//            Thread.sleep(1000);
+//        }
     }
 
 }

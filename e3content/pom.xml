@@ -23,6 +23,7 @@
 			<artifactId>e3-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
 	</dependencies>
 
 	<!-- 配置tomcat插件 -->
