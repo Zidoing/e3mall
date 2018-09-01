@@ -46,5 +46,8 @@
 	<dubbo:reference interface="cn.e3mall.service.ItemService" id="itemService" timeout="1000"/>
 	<dubbo:reference interface="cn.e3mall.service.ItemCatService" id="itemCatService" timeout="1000"/>
 
+	<dubbo:reference interface="cn.e3mall.content.service.ContentCategoryService" id="contentCategoryService"
+					 timeout="1000"/>
+
 
 </beans>
